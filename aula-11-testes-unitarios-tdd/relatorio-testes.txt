@@ -1,0 +1,15 @@
+============================= test session starts =============================
+platform win32 -- Python 3.12.14, pytest-9.2.0, pluggy-1.7.0 -- C:\Users\joao\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\joao\Documents\Codex\2026-10-27\esta-atividade-corresponde-ao-s-bado\outputs\aula-11-testes-unitarios-tdd
+collecting ... collected 7 items
+
+tests/test_pedido.py::test_calcula_total_de_varios_itens PASSED          [ 14%]
+tests/test_pedido.py::test_retorna_zero_quando_lista_esta_vazia PASSED   [ 28%]
+tests/test_pedido.py::test_rejeita_item_com_preco_zero PASSED            [ 42%]
+tests/test_pedido.py::test_rejeita_item_com_quantidade_zero PASSED       [ 57%]
+tests/test_taxa_entrega.py::test_cobra_cinco_reais_para_dois_km_e_pedido_de_cinquenta PASSED [ 71%]
+tests/test_taxa_entrega.py::test_cobra_sete_reais_para_quatro_km_e_pedido_de_cinquenta PASSED [ 85%]
+tests/test_taxa_entrega.py::test_entrega_gratis_para_cinco_km_e_pedido_de_cem PASSED [100%]
+
+============================== 7 passed in 0.03s ==============================
